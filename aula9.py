@@ -65,9 +65,9 @@ def venda():
     time.sleep(0.5)
     print(f'Granvado a Venda : {pedido}')
     n = 0
-    for n in range(1 , 6):
-        print('.')
-        time.sleep(0.6)
+    for n in range(0 , 3):
+        print(f'{n+1} : Atualizando')
+        time.sleep(1)
         
     print(f'Venda : {pedido} Gravada!')
     time.sleep(1.5)
