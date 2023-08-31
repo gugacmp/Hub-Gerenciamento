@@ -96,3 +96,13 @@ time.sleep(0.8)
 print('')
 print('|-------------Resumo---------------|')
 print(f'Código da  Venda : {pedido}')
+
+while pedido == pedido:
+    print('|--------------------------------------|')
+    print('|--------------Venda-------------------|')
+    pedido = int(input('Informe o pedido :'))
+    api()
+    time.sleep(1.5)
+    hub()
+    time.sleep(1.5)
+    venda()
