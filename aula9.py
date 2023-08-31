@@ -92,3 +92,7 @@ def venda():
     print('|----------Finalizando------------|')
     time.sleep(0.5)
 venda()
+time.sleep(0.8)
+print('')
+print('|-------------Resumo---------------|')
+print(f'Código da  Venda : {pedido}')
