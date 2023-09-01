@@ -19,7 +19,10 @@ def api():
     elif pedido > 601 and pedido < 800 and analise == 601:
         print('Pedido em Analise ')
     else:
-        print(f'Pedido : {pedido} não existe !')    
+        print(f'Pedido : {pedido} não existe !')
+        #Verificar se esse bloco voltar ao inicio, caso não, exclui-lo.
+        pedido = int(input('Informe o pedido :'))
+        
 api()
 
 print('|--------------------------------------|')
@@ -64,6 +67,7 @@ def venda():
     print(f'Status da Venda : {pedido}')
     time.sleep(0.5)
     print(f'Granvado a Venda : {pedido}')
+    #Bloco de contagem da atualização da venda!
     n = 0
     for n in range(0 , 3):
         print(f'{n+1} : Atualizando a Venda : {pedido}')
